@@ -8,11 +8,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    loadChildren: () => import('./loading/loading.module').then( m => m.LoadingPageModule)
-  },
-  {
-    path: '',
-    redirectTo: 'loading',
+    redirectTo: 'home',
     pathMatch: 'full'
   },
 ];
