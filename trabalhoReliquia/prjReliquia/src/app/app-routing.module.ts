@@ -27,6 +27,10 @@ const routes: Routes = [
     path: 'veiculo',
     loadChildren: () => import('./veiculo/veiculo.module').then( m => m.VeiculoPageModule)
   },
+  {
+    path: 'filter',
+    loadChildren: () => import('./filter/filter.module').then( m => m.FilterPageModule)
+  },
 
 
 
